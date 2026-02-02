@@ -70,113 +70,75 @@ OTT moderation dashboards
 
 ## Video Upload & Streaming
 
-Secure video uploads using multer
+- Secure video uploads using multer
 
-Chunk-based video streaming with HTTP range requests
+- Chunk-based video streaming with HTTP range requests
 
-Real-time processing simulation (safe / flagged)
+- Real-time processing simulation (safe / flagged)
 
 ## Authentication & Security
 
-JWT-based authentication
+- JWT-based authentication
 
-Role-based access control (RBAC)
+- Role-based access control (RBAC)
 
-Protected routes (frontend + backend)
+- Protected routes (frontend + backend)
 
-Token stored securely in localStorage
+- Token stored securely in localStorage
 
 ## Analytics Dashboard
 
-Total uploads
+- Total uploads
 
-Safe vs flagged videos
+- Safe vs flagged videos
 
-Visual analytics charts
+- Visual analytics charts
 
-Real-time updates via polling
+- Real-time updates via polling
 
 ## UI / UX
 
-Glassmorphism cards
+- Glassmorphism cards
 
-Dark, cinematic theme
+- Dark, cinematic theme
 
-Smooth transitions & hover effects
+- Smooth transitions & hover effects
 
-Clean, modern creator-focused layout
+- Clean, modern creator-focused layout
 
 
 ## Tech Stack
 ## Frontend
 
-React (Vite)
+- React (Vite)
 
-React Router
+- React Router
 
-Axios
+- Axios
 
-Custom Glassmorphism CSS
+- Custom Glassmorphism CSS
 
-Recharts (Analytics)
+- Recharts (Analytics)
 
 ## Framer Motion (animations – optional extension)
 
 ## Backend
 
-Node.js
+- Node.js
 
-Express.js
+- Express.js
 
-MongoDB (Mongoose)
+- MongoDB (Mongoose)
 
-JWT Authentication
+- JWT Authentication
 
-Multer (file uploads)
+- Multer (file uploads)
 
 ## Database
 
-MongoDB
+- MongoDB
 
-Mongoose schemas for Users & Videos
-
-
-
-## Project Structure
-
-
-video-streaming-platform/
-├── frontend/
-│   ├── src/
-│   │   ├── pages/
-│   │   │   ├── Login.jsx
-│   │   │   ├── Dashboard.jsx
-│   │   │   ├── Upload.jsx
-│   │   │   └── Settings.jsx
-│   │   ├── components/
-│   │   │   ├── Navbar.jsx
-│   │   │   ├── ProfileMenu.jsx
-│   │   │   └── Analytics.jsx
-│   │   ├── styles/
-│   │   │   └── glass.css
-│   │   ├── api.js
-│   │   ├── auth.js
-│   │   └── main.jsx
-│   └── package.json
-│
-├── backend/
-│   ├── models/
-│   │   ├── User.js
-│   │   └── Video.js
-│   ├── middleware/
-│   │   ├── verifyToken.js
-│   │   └── allowRoles.js
-│   ├── uploads/
-│   ├── server.js
-│   └── package.json
-│
-└── README.md
-
+- Mongoose schemas for Users & Videos
 
 
 
@@ -236,7 +198,10 @@ It demonstrates:
 
 -> Production-style frontend patterns
 
+
+
 If you like this project, ⭐ the repo it motivates future improvements :)
+
 
 
 
