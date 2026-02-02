@@ -22,3 +22,18 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# node
+node_modules/
+.env
+
+# frontend
+frontend/node_modules/
+frontend/dist/
+
+# backend
+backend/node_modules/
+backend/uploads/
+
+# misc
+.DS_Store
+
